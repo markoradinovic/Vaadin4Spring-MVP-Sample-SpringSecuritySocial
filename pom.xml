@@ -300,9 +300,11 @@
 		</repository>
 		<repository>
 			<id>github-snapshots</id>
-			<name>Vaadin4Spring MVP</name>
+			<name>Vaadin4Spring</name>
 <!-- 			<url>https://raw.github.com/markoradinovic/mvn-repo/snapshot</url> -->
-			<url>https://github.com/markoradinovic/mvn-repo/raw/snapshot</url>
+<!-- 			<url>https://raw.github.com/markoradinovic/mvn-repo/snapshot</url> -->
+				<url>https://raw.githubusercontent.com/markoradinovic/mvn-repo/snapshot/</url>			
+<!-- 			https://raw.githubusercontent.com/markoradinovic/mvn-repo/snapshot/org/vaadin/spring/spring-vaadin-mvp/0.0.2-SNAPSHOT/maven-metadata.xml -->
 			<releases>
 				<enabled>false</enabled>
 			</releases>

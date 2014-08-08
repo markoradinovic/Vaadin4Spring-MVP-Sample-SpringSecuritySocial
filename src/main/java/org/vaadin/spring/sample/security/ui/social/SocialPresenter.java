@@ -18,7 +18,7 @@ import org.vaadin.spring.navigator.VaadinView;
 import org.vaadin.spring.sample.security.account.AccountRepository;
 import org.vaadin.spring.sample.security.ui.ViewToken;
 import org.vaadin.spring.sample.security.ui.formsender.FormSender;
-import org.vaadin.spring.sample.security.ui.formsender.FormSender.SocialProviderAction;
+import org.vaadin.spring.sample.security.ui.formsender.SocialProviderAction;
 
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 
