@@ -301,7 +301,8 @@
 		<repository>
 			<id>github-snapshots</id>
 			<name>Vaadin4Spring MVP</name>
-			<url>https://raw.github.com/markoradinovic/mvn-repo/snapshot</url>
+<!-- 			<url>https://raw.github.com/markoradinovic/mvn-repo/snapshot</url> -->
+			<url>https://github.com/markoradinovic/mvn-repo/raw/snapshot</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
