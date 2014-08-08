@@ -3,7 +3,7 @@ Vaadin4Spring-MVP-Sample-SpringSecuritySocial
 
 Vaadin4Spring Spring Security Social sample
 
-==Live Demo
+##Live Demo
 
 <http://vaadin4spring-security-social.herokuapp.com>
 
@@ -12,9 +12,9 @@ Vaadin4Spring + Vaadin4Spring-MVP + SpringBoot + SpringSecurity + SpringSocial
 
 This application is re-write of Spring Social Samples (spring-social-showcase-sec).
   
-==References
+##References
 
-Vaadin4Spring Add-on
+##Vaadin4Spring Add-on
 <https://github.com/peholmst/vaadin4spring>
 
 Vaadin4Spring MVP
