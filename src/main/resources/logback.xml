@@ -6,8 +6,8 @@
     
     <logger name="org.vaadin.spring.sample" level="ALL"/>
     
-    <logger name="org.springframework.security" level="DEBUG"/>
+    <logger name="org.springframework.security" level="INFO"/>
     
-    <logger name="org.springframework.social" level="DEBUG"/>
+    <logger name="org.springframework.social" level="INFO"/>
 
 </configuration>
