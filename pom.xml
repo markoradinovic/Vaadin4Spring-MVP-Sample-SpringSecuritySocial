@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>	
+	<modelVersion>4.0.0</modelVersion>
 	<artifactId>mvp-sample-security-social</artifactId>
 	<packaging>jar</packaging>
 	<name>Vaadin4Spring MVP - SpringSecurity Social sample</name>
@@ -11,14 +11,14 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.1.4.RELEASE</version>
 	</parent>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<vaadin.version>7.3.0.beta1</vaadin.version>
 		<vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
 		<main.basedir>${basedir}/../..</main.basedir>
 	</properties>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -48,7 +48,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-social-facebook</artifactId>			
+			<artifactId>spring-boot-starter-social-facebook</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.social</groupId>
@@ -61,7 +61,7 @@
 		<dependency>
 			<groupId>org.springframework.social</groupId>
 			<artifactId>spring-social-web</artifactId>
-		</dependency>		
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.social</groupId>
 			<artifactId>spring-social-google</artifactId>
@@ -71,7 +71,7 @@
 			<groupId>org.springframework.social</groupId>
 			<artifactId>spring-social-security</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
@@ -81,13 +81,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- VAADIN STUFF -->
 		<dependency>
 			<groupId>org.vaadin.spring</groupId>
 			<artifactId>spring-boot-vaadin</artifactId>
 			<version>0.0.2-SNAPSHOT</version>
-		</dependency>		
+		</dependency>
 		<dependency>
 			<groupId>org.vaadin.spring</groupId>
 			<artifactId>spring-vaadin-security</artifactId>
@@ -119,8 +119,8 @@
 			<artifactId>vaadin-themes</artifactId>
 			<version>${vaadin.version}</version>
 		</dependency>
-		
-		
+
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -128,7 +128,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-validator</artifactId>			
+			<artifactId>hibernate-validator</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>javax.validation</groupId>
@@ -136,7 +136,7 @@
 			<version>1.1.0.Final</version>
 		</dependency>
 
-				
+
 	</dependencies>
 
 	<build>
@@ -231,8 +231,8 @@
 							<goal>resources</goal>
 							<!-- <goal>update-theme</goal> -->
 							<!-- <goal>update-widgetset</goal> -->
-<!-- 							<goal>compile-theme</goal> -->
-<!-- 							<goal>compile</goal> -->
+							<!-- <goal>compile-theme</goal> -->
+							<!-- <goal>compile</goal> -->
 						</goals>
 					</execution>
 				</executions>
@@ -291,20 +291,19 @@
 		</repository>
 
 		<repository>
-			<id>opensourceagility-releases</id>
-			<url>http://repo.opensourceagility.com/releases</url>
-		</repository>
-		<repository>
-			<id>snapshot-repo</id>
-			<url>https://github.com/OpenSourceAgility/opensourceagility-mvn-repo/raw/master/snapshots</url>
+			<id>sonatype-snapshots</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
 		</repository>
 		<repository>
 			<id>github-snapshots</id>
 			<name>Vaadin4Spring</name>
-<!-- 			<url>https://raw.github.com/markoradinovic/mvn-repo/snapshot</url> -->
-<!-- 			<url>https://raw.github.com/markoradinovic/mvn-repo/snapshot</url> -->
-				<url>https://raw.githubusercontent.com/markoradinovic/mvn-repo/snapshot/</url>			
-<!-- 			https://raw.githubusercontent.com/markoradinovic/mvn-repo/snapshot/org/vaadin/spring/spring-vaadin-mvp/0.0.2-SNAPSHOT/maven-metadata.xml -->
+			<url>https://raw.githubusercontent.com/markoradinovic/mvn-repo/snapshot/</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
